@@ -1,4 +1,4 @@
-# ubuntu_入门
+# ubuntu_优化
 ## 系统优化
 ### 卸载libreOffice
 `sudo apt-get remove libreoffice-common`
