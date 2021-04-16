@@ -152,17 +152,15 @@ sudo apt-get install typora
 sudo dpkg -i softname.deb
 sudo dpkg -r xxx.deb
 ```
-###连同配置文件一起删除
+### 连同配置文件一起删除
 `sudo dpkg -r --purge xxx.deb`
 ### 已安装软件包信息
-`sdo dpkg -l
-##解压.tar.gz文件
-	tar -xzvf filename
-
-
-
-#换源
-##阿里云
+`sudo dpkg -l`
+### 解压.tar.gz文件
+`tar -xzvf filename`
+## 换源
+### 阿里云
+```
 deb http://mirrors.aliyun.com/ubuntu/ focal main restricted universe multiverse
 deb-src http://mirrors.aliyun.com/ubuntu/ focal main restricted universe multiverse
 deb http://mirrors.aliyun.com/ubuntu/ focal-security main restricted universe multiverse
@@ -173,3 +171,4 @@ deb http://mirrors.aliyun.com/ubuntu/ focal-proposed main restricted universe mu
 deb-src http://mirrors.aliyun.com/ubuntu/ focal-proposed main restricted universe multiverse
 deb http://mirrors.aliyun.com/ubuntu/ focal-backports main restricted universe multiverse
 deb-src http://mirrors.aliyun.com/ubuntu/ focal-backports main restricted universe multiverse
+```
