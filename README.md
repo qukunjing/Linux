@@ -24,8 +24,7 @@ deb-src http://mirrors.aliyun.com/ubuntu/ focal-proposed main restricted univers
 deb http://mirrors.aliyun.com/ubuntu/ focal-backports main restricted universe multiverse
 deb-src http://mirrors.aliyun.com/ubuntu/ focal-backports main restricted universe multiverse
 ```
-## 安装显卡驱动
-`sudo apt install nvidia-367 nvidia-prime`
+
 ## 系统时间
 ```
 sudo apt-get install ntpdate
@@ -33,13 +32,13 @@ sudo ntpdata time.windows.com
 sudo hwclock --localtime --systohc
 ```
 ## 软件安装
-## 安装坚果云
+### 安装坚果云
 ```
 https://www.jianguoyun.com/s/downloads
 apt-get -f install 
 dpkg -i 安装包
 ```
-## 安装vim
+### 安装vim
 `sudo apt-get install vim`
 ### 截图shutter
 ```
@@ -58,14 +57,7 @@ sudo apt-get install -f
 ```
 ### 解压缩rar
 `sudo apt-get install rar`
-### 为知笔记
-```
-sudo add-apt-repository ppa:wiznote-team
-sudo apt-get update
-sudo apt-get install wiznote
-#GCC&&GDB环境
-sudo apt-get install gcc && gdb
-```
+
 ### 网易云音乐
 ```
 https://music.163.com/#/download 
@@ -112,8 +104,6 @@ echo '安装完成，正在自动安装依赖...'
 sudo apt install -fy
 sudo ./install.sh 
 ```
-### 安装搜狗输入法
-`https://pinyin.sogou.com/linux/help.php`
 ### VLC视频播放器
 `sudo apt install vlc`
 ### steam
@@ -129,8 +119,7 @@ sudo ./install.sh
 https://getmailspring.com/download
 sudo dpkg -i *.deb
 ```
-### 笔记软件：zim
-`sudo apt-get install zim`
+
 ### 下载软件uget
 ```
 https://ugetdm.com/downloads/ubuntu/
